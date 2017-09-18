@@ -25,7 +25,6 @@
         // It isn't even
         return(false);
       }
-      console.log(" ");
     }
   }));
 })();
