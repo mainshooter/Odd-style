@@ -19,7 +19,7 @@
      */
     function checkIfNumberIsEven(number) {
       var result = number / 2;
-      if (Number.isInteger(result) == true) {
+      if (Number.isInteger(result) === true) {
         // It is even
         return(true);
       }
