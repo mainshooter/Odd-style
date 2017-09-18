@@ -1,9 +1,8 @@
 (function() {
   var evenElements = selectAll("ul[data-show-oddeven] li");
-
   evenElements.forEach((function(element, index, nodeList) {
 
-    if (checkIfNumberIsEven(counter) == true) {
+    if (checkIfNumberIsEven(index + 1) == true) {
       // Odd element
       element.title = "Even";
     }
